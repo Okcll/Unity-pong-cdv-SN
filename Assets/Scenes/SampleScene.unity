@@ -156,9 +156,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriterenderer: {fileID: 0}
   rigidbody2D: {fileID: 0}
-  upKey: 0
-  downKey: 0
+  upKey: 119
+  downKey: 115
   color: {r: 1, g: 0, b: 0, a: 1}
+  speed: 5
 --- !u!212 &286631734
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -219,7 +220,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 286631732}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.58, y: -0.71, z: 0}
+  m_LocalPosition: {x: -7, y: 0, z: 0}
   m_LocalScale: {x: 0.28, y: 2.55, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -419,6 +420,7 @@ MonoBehaviour:
   upKey: 273
   downKey: 274
   color: {r: 0, g: 0.12516737, b: 1, a: 1}
+  speed: 5
 --- !u!212 &1974420016
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -479,7 +481,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1974420013}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.35, y: -0.71, z: 0}
+  m_LocalPosition: {x: 7, y: 0, z: 0}
   m_LocalScale: {x: 0.28, y: 2.55, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
